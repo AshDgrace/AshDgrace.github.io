@@ -1,0 +1,41 @@
+/* Style for the side panel */
+#sidepanel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style for the main content area */
+  #main {
+    margin-left: 220px;
+    padding: 20px;
+  }
+  
+  /* Style for the links in the side panel */
+  #sidepanel a {
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the select element */
+  #version-selector {
+    position: fixed;
+    top: 0;
+    left: 220px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Style for the options in the select element */
+  #version-selector option {
+    background-color: #333;
+    color: #fff;
+  }
