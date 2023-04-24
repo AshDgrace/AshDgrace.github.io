@@ -14,8 +14,7 @@
     margin: 0 0 10px;
   }
   
-  #UpperPanel select,
-  #UpperPanel ul {
+  #UpperPanel select, #UpperPanel ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -28,8 +27,4 @@
   #UpperPanel a {
     color: #fff;
     text-decoration: none;
-  }
-  
-  #main {
-    margin-top: 70px; /* add 70px margin-top to push content down */
   }
