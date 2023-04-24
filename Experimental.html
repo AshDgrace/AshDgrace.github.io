@@ -3,70 +3,71 @@
 <head>
 	<title>My Website</title>
 	<style>
-		nav {
+		/* Style for the side panel */
+		#sidepanel {
 			position: fixed;
-			left: 0;
 			top: 0;
-			bottom: 0;
-			width: 150px;
-			background-color: #ddd;
-			padding: 20px;
-		}
-
-		nav ul {
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}
-
-		nav ul li {
-			margin-bottom: 10px;
-		}
-
-		nav ul li a {
-			color: #333;
-			text-decoration: none;
-		}
-
-		nav ul li a:hover {
-			color: #fff;
+			left: 0;
+			width: 200px;
+			height: 100%;
 			background-color: #333;
-		}
-
-		.container {
-			margin-left: 150px;
+			color: #fff;
 			padding: 20px;
 		}
 
-		h1 {
-			margin-top: 0;
+		/* Style for the main content area */
+		#main {
+			margin-left: 220px;
+			padding: 20px;
+		}
+
+		/* Style for the links in the side panel */
+		#sidepanel a {
+			display: block;
+			color: #fff;
+			margin-bottom: 10px;
 		}
 	</style>
 </head>
 <body>
 
-	<!-- Sidebar Navigation Menu -->
-	<nav>
-		<ul>
-			<li><a href="V1.html">Version 1</a></li>
-			<li><a href="V2.html">Version 2</a></li>
-			<li><a href="V3.html">Version 3</a></li>
-			<li><a href="V4.html">Version 4</a></li>
-			<li><a href="V5.html">Version 5</a></li>
-			<li><a href="V6.html">Version 6</a></li>
-		</ul>
-	</nav>
+	<!-- Side Panel -->
+	<div id="sidepanel">
+		<a href="V1.html">Version 1</a>
+		<a href="V2.html">Version 2</a>
+		<a href="V3.html">Version 3</a>
+		<a href="V4.html">Version 4</a>
+		<a href="V5.html">Version 5</a>
+		<a href="V6.html">Version 6</a>
+	</div>
 
-	<!-- Main Content -->
-	<div class="container">
-		<h1>Welcome to My Website</h1>
-		<p>Here are all previous Versions</p>
+	<!-- Main Content Area -->
+	<div id="main">
+		<!-- Home Page Content -->
+		<section id="home">
+			<h1>Welcome to My Website</h1>
+			<p>Here are all previous Versions</p>
+		</section>
 
+		<!-- Navigation Menu -->
+		<nav>
+			<ul>
+	            <li><a href="V1.html" target="_self">Version 1</a></li>
+	            <li><a href="V2.html" target="_self">Version 2</a></li>
+	            <li><a href="V3.html" target="_self">Version 3</a></li>
+	            <li><a href="V4.html" target="_self">Version 4</a></li>
+	            <li><a href="V5.html" target="_self">Version 5</a></li>
+	            <li><a href="V6.html" target="_self">Version 6</a></li>
+			</ul>
+		</nav>
+
+		<!-- About Page Content -->
 		<section id="about">
 			<h2>About Us</h2>
 			<p>Dont read this. it is garbage.</p>
 		</section>
 
+		<!-- Contact Page Content -->
 		<section id="contact">
 			<h2>Contact Us</h2>
 			<p>If you have any questions or comments, Dont. Contact. Us.</p>
