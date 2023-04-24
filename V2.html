@@ -1,45 +1,94 @@
-<!DOCTYPE html>
+</html><!DOCTYPE html>
 <html>
 <head>
 	<title>My Website</title>
+	<style>
+		/* Style for the side panel */
+		#sidepanel {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 200px;
+			height: 100%;
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+		}
+
+		/* Style for the main content area */
+		#main {
+			margin-left: 220px;
+			padding: 20px;
+		}
+
+		/* Style for the links in the side panel */
+		#sidepanel a {
+			display: block;
+			color: #fff;
+			margin-bottom: 10px;
+		}
+	</style>
 </head>
 <body>
 
-	<!-- Navigation Menu -->
-	<nav>
-		<ul>
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-	</nav>
+	<!-- Side Panel -->
+	<div id="sidepanel">
 
-	<!-- Home Page Content -->
-	<section id="home">
-		<h1>Welcome to My Website</h1>
-		<p>Here you will find information about our products and services.</p>
-	</section>
+        <p> Here are all previous versions</p>
 
-	<!-- About Page Content -->
-	<section id="about">
-		<h2>About Us</h2>
-		<p>We are a company that specializes in providing high-quality products and services to our clients. Our team of experts is dedicated to ensuring that our customers are satisfied with our work.</p>
-	</section>
+		<a href="V1.html">Version 1</a>
+		<a href="V2.html">Version 2</a>
+		<a href="V3.html">Version 3</a>
+		<a href="V4.html">Version 4</a>
+		<a href="V5.html">Version 5</a>
+		<a href="V6.html">Version 6</a>
 
-	<!-- Contact Page Content -->
-	<section id="contact">
-		<h2>Contact Us</h2>
-		<p>If you have any questions or comments, please feel free to contact us using the form below:</p>
-		<form>
-			<label for="name">Name:</label>
-			<input type="text" id="name" name="name"><br><br>
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email"><br><br>
-			<label for="message">Message:</label><br>
-			<textarea id="message" name="message"></textarea><br><br>
-			<button type="submit">Submit</button>
-		</form>
-	</section>
+		<P> Latest / Experimental Version</P>
+        <li><a href="Experimental.html" target="_self">Experimental</a></li>
+        <li><a href="Index.html" target="_self">Latest</a></li>
+		
+	</div>
+
+	<div id="main">
+
+		<!-- Navigation Menu -->
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		<!-- Home Page Content -->
+		<section id="home">
+			<h1>Welcome to My Website</h1>
+			<p>Here you will find information about our products and services.</p>
+		</section>
+
+		<!-- About Page Content -->
+		<section id="about">
+			<h2>About Us</h2>
+			<p>We are a company that specializes in providing high-quality products and services to our clients. Our team of experts is dedicated to ensuring that our customers are satisfied with our work.</p>
+		</section>
+
+		<!-- Contact Page Content -->
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<p>If you have any questions or comments, please feel free to contact us using the form below:</p>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="message">Message:</label><br>
+				<textarea id="message" name="message"></textarea><br><br>
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+
+
+	</div>
 
 </body>
 </html>
