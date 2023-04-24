@@ -1,52 +1,26 @@
-</html><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>My Website</title>
-	<style>
-		/* Style for the side panel */
-		#sidepanel {
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: 200px;
-			height: 100%;
-			background-color: #333;
-			color: #fff;
-			padding: 20px;
-		}
-
-		/* Style for the main content area */
-		#main {
-			margin-left: 220px;
-			padding: 20px;
-		}
-
-		/* Style for the links in the side panel */
-		#sidepanel a {
-			display: block;
-			color: #fff;
-			margin-bottom: 10px;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="Theme.css">
 </head>
 <body>
 
-	<!-- Side Panel -->
-	<div id="sidepanel">
-
-        <p> Here are all previous versions</p>
-
-		<a href="V1.html">Version 1</a>
-		<a href="V2.html">Version 2</a>
-		<a href="V3.html">Version 3</a>
-		<a href="V4.html">Version 4</a>
-		<a href="V5.html">Version 5</a>
-		<a href="V6.html">Version 6</a>
-
-        <P> Latest / Experimental Version</P>
-        <li><a href="Experimental.html" target="_self">Experimental</a>
-        <li><a href="index.html" target="_self">Latest</a>
-		
+	<!-- Upper panel -->
+	<div id="UpperPanel">
+        <p>Previous versions:</p>
+		<select onchange="window.location.href=this.value;">
+            <option value="">Select...</option>
+            <option value="index.html">Latest</option>
+            <option value="Experimental.html">Experimental</option>
+			<option value="V1.html">Version 1</option>
+			<option value="V2.html">Version 2</option>
+			<option value="V3.html">Version 3</option>
+			<option value="V4.html">Version 4</option>
+			<option value="V5.html">Version 5</option>
+			<option value="V6.html">Version 6</option>
+            <option value="V6.html">Version 6</option>
+		</select>
 	</div>
 
 	<div id="main">
