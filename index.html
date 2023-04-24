@@ -2,59 +2,56 @@
 <html>
 <head>
 	<title>My Website</title>
+	<link rel="stylesheet" type="text/css" href="Theme.css">
 </head>
 <body>
 
-	<!-- Home Page Content -->
-	<section id="home">
-		<h1>Welcome to My Website</h1>
-		<p>Here are all previous Versions</p>
-	</section>
+	<!-- Upper panel -->
+	<div id="UpperPanel">
+        <p>Previous versions:</p>
+		<select onchange="window.location.href=this.value;">
+            <option value="">Select...</option>
+            <option value="index.html">Latest</option>
+            <option value="Experimental.html">Experimental</option>
+			<option value="V1.html">Version 1</option>
+			<option value="V2.html">Version 2</option>
+			<option value="V3.html">Version 3</option>
+			<option value="V4.html">Version 4</option>
+			<option value="V5.html">Version 5</option>
+			<option value="V6.html">Version 6</option>
+            <option value="V6.html">Version 6</option>
+		</select>
+	</div>
 
-	<!-- Navigation Menu -->
-	<nav>
-		<ul>
-            <li><a href="V1.html" target="_self">Version 1</a></li>
-            <li><a href="V2.html" target="_self">Version 2</a></li>
-            <li><a href="V3.html" target="_self">Version 3</a></li>
-            <li><a href="V4.html" target="_self">Version 4</a></li>
-            <li><a href="V5.html" target="_self">Version 5</a></li>
-            <li><a href="V6.html" target="_self">Version 6</a></li>
+	<!-- Main Content Area -->
+	<div id="main">
+		<!-- Home Page Content -->
+		<section id="home">
+			<h1>Welcome to My Website</h1>
+			<p>Here are all previous Versions</p>
+		</section>
 
-            <P> Latest / Experimental Version</P>
-            <li><a href="Experimental.html" target="_self">Experimental</a>
-            <li><a href="index.html" target="_self">Latest</a>
-		</ul>
-	</nav>
+		<!-- About Page Content -->
+		<section id="about">
+			<h2>About Us</h2>
+			<p>Dont read this. it is garbage.</p>
+		</section>
 
-    <nav>
-
-        <p>This is the experimental version</p>
-        <ul>
-            <li><a href="Experimental.html" target="_self">Experimental</a></li>
-        </ul>
-    </nav>
-
-	<!-- About Page Content -->
-	<section id="about">
-		<h2>About Us</h2>
-		<p>Dont read this. it is garbage.</p>
-	</section>
-
-	<!-- Contact Page Content -->
-	<section id="contact">
-		<h2>Contact Us</h2>
-		<p>If you have any questions or comments, Dont. Contact. Us.</p>
-		<form>
-			<label for="name">Name:</label>
-			<input type="text" id="name" name="name"><br><br>
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email"><br><br>
-			<label for="message">Message:</label><br>
-			<textarea id="message" name="message"></textarea><br><br>
-			<button type="submit">Submit</button>
-		</form>
-	</section>
+		<!-- Contact Page Content -->
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<p>If you have any questions or comments, Dont. Contact. Us.</p>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="message">Message:</label><br>
+				<textarea id="message" name="message"></textarea><br><br>
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+	</div>
 
 </body>
 </html>
