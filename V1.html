@@ -1,12 +1,51 @@
 </html><!DOCTYPE html>
 <html>
 <head>
-	<title>My Wikipedia Page</title>
+	<title>My Website</title>
+	<style>
+		/* Style for the side panel */
+		#sidepanel {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 200px;
+			height: 100%;
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+		}
+
+		/* Style for the main content area */
+		#main {
+			margin-left: 220px;
+			padding: 20px;
+		}
+
+		/* Style for the links in the side panel */
+		#sidepanel a {
+			display: block;
+			color: #fff;
+			margin-bottom: 10px;
+		}
+	</style>
 </head>
 <body>
 
+	<!-- Side Panel -->
+	<div id="sidepanel">
+
+        <p> Here are all previous versions</p>
+
+		<a href="V1.html">Version 1</a>
+		<a href="V2.html">Version 2</a>
+		<a href="V3.html">Version 3</a>
+		<a href="V4.html">Version 4</a>
+		<a href="V5.html">Version 5</a>
+		<a href="V6.html">Version 6</a>
+	</div>
+
 	<!-- Header with title and search bar -->
-	<header>
+	<div id=""main>
 		<h1>My Wikipedia Page</h1>
 		<form>
 			<input type="text" placeholder="Search...">
@@ -54,12 +93,13 @@
 				<li><a href="https://wikimediafoundation.org/wiki/Home">Wikimedia Foundation</a></li>
 			</ul>
 		</section>
-	</main>
 
-	<!-- Footer -->
-	<footer>
-		<p>Copyright © 2023 My Wikipedia Page</p>
-	</footer>
+		<!-- Footer -->
+		<footer>
+			<p>Copyright © 2023 My Wikipedia Page</p>
+		</footer>
+
+	</div>
 
 </body>
 </html>
