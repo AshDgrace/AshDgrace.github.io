@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+		nav {
+			position: fixed;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			width: 150px;
+			background-color: #ddd;
+			padding: 20px;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		nav ul li {
+			margin-bottom: 10px;
+		}
+
+		nav ul li a {
+			color: #333;
+			text-decoration: none;
+		}
+
+		nav ul li a:hover {
+			color: #fff;
+			background-color: #333;
+		}
+
+		.container {
+			margin-left: 150px;
+			padding: 20px;
+		}
+
+		h1 {
+			margin-top: 0;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- Sidebar Navigation Menu -->
+	<nav>
+		<ul>
+			<li><a href="V1.html">Version 1</a></li>
+			<li><a href="V2.html">Version 2</a></li>
+			<li><a href="V3.html">Version 3</a></li>
+			<li><a href="V4.html">Version 4</a></li>
+			<li><a href="V5.html">Version 5</a></li>
+			<li><a href="V6.html">Version 6</a></li>
+		</ul>
+	</nav>
+
+	<!-- Main Content -->
+	<div class="container">
+		<h1>Welcome to My Website</h1>
+		<p>Here are all previous Versions</p>
+
+		<section id="about">
+			<h2>About Us</h2>
+			<p>Dont read this. it is garbage.</p>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<p>If you have any questions or comments, Dont. Contact. Us.</p>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="message">Message:</label><br>
+				<textarea id="message" name="message"></textarea><br><br>
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+	</div>
+
+</body>
+</html>
