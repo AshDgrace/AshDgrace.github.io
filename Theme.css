@@ -38,7 +38,7 @@
     text-align: center;
 }
 
-.upper-panel-container {
+#upper-panel-container {
     display: flex;
     justify-content: center;
     align-items: center;
