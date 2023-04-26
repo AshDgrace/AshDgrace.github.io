@@ -37,3 +37,9 @@
 #UpperPanel form {
     text-align: center;
 }
+
+.upper-panel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
