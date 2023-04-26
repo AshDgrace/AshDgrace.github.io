@@ -1,35 +1,35 @@
 #UpperPanel {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #8cab8c; /* change background color */
-    color: rgb(0, 0, 0); /* change text color */
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-  
-  #UpperPanel select {
-    background-color: #ffffff; /* change select background color */
-    color: rgb(0, 0, 0); /* change select text color */
-  }
-  
-  #UpperPanel form {
-    display: flex;
-    align-items: center;
-  }
-  
-  #UpperPanel form input[type="text"] {
-    background-color: #ffffff; /* change input background color */
-    color: rgb(0, 0, 0); /* change input text color */
-    border: none;
-    padding: 5px;
-    margin-right: 10px;
-  }
-  
-  #UpperPanel form button[type="submit"] {
-    background-color: #ffffff; /* change button background color */
-    color: rgb(0, 0, 0); /* change button text color */
-    border: none;
-    padding: 5px 10px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #636463; /* change background color */
+  color: rgb(0, 0, 0); /* change text color */
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#UpperPanel select {
+  background-color: #ffffff; /* change select background color */
+  color: rgb(0, 0, 0); /* change select text color */
+}
+
+#UpperPanel form {
+  display: flex;
+  align-items: center;
+}
+
+#UpperPanel form input[type="text"] {
+  background-color: #ffffff; /* change input background color */
+  color: rgb(0, 0, 0); /* change input text color */
+  border: none;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+#UpperPanel form button[type="submit"] {
+  background-color: #ffffff; /* change button background color */
+  color: rgb(0, 0, 0); /* change button text color */
+  border: none;
+  padding: 5px 10px;
+}
