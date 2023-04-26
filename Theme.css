@@ -2,13 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #262424; /* change background color */
-  color: rgb(52, 52, 52); /* change text color */
+  background-color: #3ec120; /* change background color */
+  color: rgb(73, 141, 62); /* change text color */
 }
 
 #UpperPanel select {
-  background-color: #555; /* change select background color */
-  color: white; /* change select text color */
+  background-color: #5c0303; /* change select background color */
+  color: rgb(252, 6, 6); /* change select text color */
 }
 
 #UpperPanel form {
@@ -17,16 +17,16 @@
 }
 
 #UpperPanel form input[type="text"] {
-  background-color: #555; /* change input background color */
-  color: white; /* change input text color */
+  background-color: #2111a1; /* change input background color */
+  color: rgb(55, 69, 175); /* change input text color */
   border: none;
   padding: 5px;
   margin-right: 10px;
 }
 
 #UpperPanel form button[type="submit"] {
-  background-color: #4CAF50; /* change button background color */
-  color: white; /* change button text color */
+  background-color: #cb17ad; /* change button background color */
+  color: rgb(211, 96, 199); /* change button text color */
   border: none;
   padding: 5px 10px;
 }
