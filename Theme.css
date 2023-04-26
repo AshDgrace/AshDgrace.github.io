@@ -33,3 +33,7 @@
 #main {
   margin-top: 100px; /* add 70px margin-top to push content down */
 }
+
+#UpperPanel form {
+    text-align: center;
+}
