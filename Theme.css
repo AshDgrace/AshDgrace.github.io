@@ -1,45 +1,18 @@
 #UpperPanel {
-  background-color: #7b7474;
-  color: #fff;
-  height: 50px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 20px;
-  font-size: 16px;
-}
-
-#UpperPanel p {
-  margin: 0 0 10px;
-}
-
-#UpperPanel select,
-#UpperPanel ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-#UpperPanel li {
-  margin: 10px 0;
-}
-
-#UpperPanel a {
-  color: #fff;
-  text-decoration: none;
-}
-
-#main {
-  margin-top: 100px; /* add 70px margin-top to push content down */
-}
-
-#UpperPanel form {
-    text-align: center;
-}
-
-#upper-panel-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-}
+    padding: 10px;
+  }
+  
+  #UpperPanel select {
+    margin-right: 10px;
+  }
+  
+  #UpperPanel form {
+    display: flex;
+    align-items: center;
+  }
+  
+  #UpperPanel form input[type="text"] {
+    margin
